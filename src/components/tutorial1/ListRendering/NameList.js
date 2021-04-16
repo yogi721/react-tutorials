@@ -1,4 +1,6 @@
 import React from 'react'
+import faker from 'faker'
+import './cards.css'
 
 function NameList() {
     // const names = ['Bruce', 'Clarck', 'Diana']
@@ -8,29 +10,43 @@ function NameList() {
 
     const persons = [
         {
-            id: 1,
-            name: 'Bruce',
-            age: 30,
-            skill: 'React'
+            id: faker.random.uuid(),
+            image: faker.image.avatar(),
+            name: faker.name.firstName(),
+            company: faker.company.companyName(),
+            job: faker.name.jobTitle()
         },
         {
-            id: 2,
-            name: 'Clark',
-            age: 20,
-            skill: 'Angular'
+            id: faker.random.uuid(),
+            image: faker.image.avatar(),
+            name: faker.name.firstName(),
+            company: faker.company.companyName(),
+            job: faker.name.jobTitle()
         },
         {
-            id: 3,
-            name: 'Diana',
-            age: 29,
-            skill: 'Vue'
+            id: faker.random.uuid(),
+            image: faker.image.avatar(),
+            name: faker.name.firstName(),
+            company: faker.company.companyName(),
+            job: faker.name.jobTitle()
         }
     ]
 
-    const personList = persons.map(persone => (
-        <h2>I am {persone.name}. I am {persone.age} years old. I know {persone.skill} </h2>
-    ))
-    return <div> {personList} </div>
+    // const personList = persons.map(persone => (
+    //     <h2>I am {persone.name}. I am {persone.age} years old. I know {persone.skill} </h2>
+    // ))
+    return (
+        persons.map(persone => (
+            <div className="card" >
+                <img src={persone.image} alt={persone.name} style={{ "width": "100%" }}></img>
+                <div className="container">
+                    <h4><b> {persone.name} </b></h4>
+                    <p>Work at: {persone.company} </p>
+                    <p>Job: {persone.job} </p>
+                </div>
+            </div>
+        ))
+    )
 
 
 }
