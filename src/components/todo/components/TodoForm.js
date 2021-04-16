@@ -1,4 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react'
+import './placeholder.css'
+
 
 function TodoForm(props) {
     const [input, setInput] = useState(props.edit ? props.edit.value : '')
@@ -43,7 +45,7 @@ function TodoForm(props) {
                         <>
                             <input
                                 type="text"
-                                placeholder="Add  a todo"
+                                placeholder="Add a todo"
                                 value={input}
                                 name="text"
                                 className="todo-input"

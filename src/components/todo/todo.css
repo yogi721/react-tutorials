@@ -51,9 +51,9 @@ h1 {
   color: #fff;
 }
 
-.todo-input::placeholder {
+/* .todo-input::placeholder {
   color: #e2e2e2;
-}
+} */
 
 .todo-button {
   padding: 16px;
