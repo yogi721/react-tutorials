@@ -1,22 +1,22 @@
 import React from 'react'
-import Counter from './Counter';
-import EventBind from './EventBind';
-import FunctionClick from './FunctionClick';
-import Greeting from './Greeting';
-import NameList from './NameList';
-import ParentComp from './ParentComp';
-import UserGreeting from './UserGreeting';
+// import Counter from './Counter';
+// import EventBind from './EventBind';
+// import FunctionClick from './FunctionClick';
+// import Greeting from './Greeting';
+// import ParentComp from './ParentComp';
+// import UserGreeting from './UserGreeting';
+import NameList from './ListRendering/NameList';
 
 
 function IndexTutorial() {
     return (
         <div>
-            <Counter />
+            {/* <Counter />
             <Greeting name="Mehdi" heroName="speedy man" />
             <FunctionClick />
             <EventBind />
             <ParentComp />
-            <UserGreeting />
+            <UserGreeting /> */}
             <NameList />
         </div>
     )
