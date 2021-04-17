@@ -10,7 +10,7 @@ import NameList from './ListRendering/NameList';
 
 function IndexTutorial() {
     return (
-        <div>
+        <div className="coucou">
             {/* <Counter />
             <Greeting name="Mehdi" heroName="speedy man" />
             <FunctionClick />
