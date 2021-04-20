@@ -5,7 +5,8 @@ import React from 'react'
 // import Greeting from './Greeting';
 // import ParentComp from './ParentComp';
 // import UserGreeting from './UserGreeting';
-import NameList from './ListRendering/NameList';
+// import NameList from './ListRendering/NameList';
+import Stylesheet from './styling/Stylesheet';
 
 
 function IndexTutorial() {
@@ -17,7 +18,8 @@ function IndexTutorial() {
             <EventBind />
             <ParentComp />
             <UserGreeting /> */}
-            <NameList />
+            {/* <NameList /> */}
+            <Stylesheet primary={true} />
         </div>
     )
 }

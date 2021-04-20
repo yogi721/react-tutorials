@@ -30,6 +30,31 @@ function NameList() {
             name: faker.name.firstName(),
             company: faker.company.companyName(),
             job: faker.name.jobTitle()
+        },
+        {
+            id: faker.datatype.uuid(),
+            image: faker.image.avatar(),
+            name: faker.name.firstName(),
+            company: faker.company.companyName(),
+            job: faker.name.jobTitle()
+        }, {
+            id: faker.datatype.uuid(),
+            image: faker.image.avatar(),
+            name: faker.name.firstName(),
+            company: faker.company.companyName(),
+            job: faker.name.jobTitle()
+        }, {
+            id: faker.datatype.uuid(),
+            image: faker.image.avatar(),
+            name: faker.name.firstName(),
+            company: faker.company.companyName(),
+            job: faker.name.jobTitle()
+        }, {
+            id: faker.datatype.uuid(),
+            image: faker.image.avatar(),
+            name: faker.name.firstName(),
+            company: faker.company.companyName(),
+            job: faker.name.jobTitle()
         }
     ]
 

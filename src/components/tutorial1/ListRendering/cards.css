@@ -16,11 +16,13 @@ body {
 
 .coucou {
   display: flex;
+  flex-flow: row wrap;
+  /* justify-content: space-around; */
 }
 
-.contained {
+/* .contained {
   padding: 2px 16px;
-}
+} */
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -28,15 +30,15 @@ body {
   margin: 1px 1px 1px 1px;
   padding: 1px 1px 1px 1px;
   border: 3px solid rgb(128, 126, 233);
-  width: 60%;
+  width: 30%;
 }
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-@media (min-width: 1001px) {
+/* @media (min-width: 1001px) {
   .card {
     flex: 1 0 31%;
   }
-}
+} */
