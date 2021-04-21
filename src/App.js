@@ -1,6 +1,6 @@
 // import IndexTyping from './components/typing/IndexTyping';
 import IndexDoc from './components/reactDoc/IndexDoc';
-import IndexTutorial from './components/tutorial1/IndexTutorial';
+// import IndexTutorial from './components/tutorial1/IndexTutorial';
 // import IndexTodo from './components/todo/IndexTodo';
 
 
