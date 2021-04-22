@@ -6,7 +6,9 @@ import React from 'react'
 // import ParentComp from './ParentComp';
 // import UserGreeting from './UserGreeting';
 // import NameList from './ListRendering/NameList';
-import Stylesheet from './styling/Stylesheet';
+// import Stylesheet from './styling/Stylesheet';
+// import Inline from './styling/Inline';
+import Form from './forms/Form';
 
 
 function IndexTutorial() {
@@ -19,7 +21,9 @@ function IndexTutorial() {
             <ParentComp />
             <UserGreeting /> */}
             {/* <NameList /> */}
-            <Stylesheet primary={true} />
+            {/* <Stylesheet primary={true} /> */}
+            {/* <Inline /> */}
+            <Form />
         </div>
     )
 }
