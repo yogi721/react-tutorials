@@ -4,7 +4,7 @@ class Form extends Component {
     constructor(props) {
         super(props)
 
-        // initial state
+        // initial states
         this.state = {
             username: '',
             comments: '',
