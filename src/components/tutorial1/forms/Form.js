@@ -12,6 +12,7 @@ class Form extends Component {
         }
     }
 
+    // handlers 
     handleUsernameChange = (event) => {
         this.setState({
             username: event.target.value
