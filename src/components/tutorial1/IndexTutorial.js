@@ -1,4 +1,5 @@
 import React from 'react'
+
 // import Counter from './Counter';
 // import EventBind from './EventBind';
 // import FunctionClick from './FunctionClick';
@@ -8,7 +9,8 @@ import React from 'react'
 // import NameList from './ListRendering/NameList';
 // import Stylesheet from './styling/Stylesheet';
 // import Inline from './styling/Inline';
-import Form from './forms/Form';
+// import Form from './forms/Form';
+import LifecycleA from './Lifecycle/LifecycleA';
 
 
 function IndexTutorial() {
@@ -23,7 +25,8 @@ function IndexTutorial() {
             {/* <NameList /> */}
             {/* <Stylesheet primary={true} /> */}
             {/* <Inline /> */}
-            <Form />
+            {/* <Form /> */}
+            <LifecycleA />
         </div>
     )
 }

@@ -4,7 +4,6 @@ class Form extends Component {
     constructor(props) {
         super(props)
 
-        // initial states
         this.state = {
             username: '',
             comments: '',
@@ -12,7 +11,6 @@ class Form extends Component {
         }
     }
 
-    // handlers 
     handleUsernameChange = (event) => {
         this.setState({
             username: event.target.value
