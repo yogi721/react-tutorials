@@ -1,6 +1,7 @@
 import React from "react"
+import HookCounterThree from "./counter/HookCounterThree"
 // import HookCounter from "./counter/HookCounter"
-import HookCounterTwo from "./counter/HookCounterTwo"
+// import HookCounterTwo from "./counter/HookCounterTwo"
 // import ClassCounter from "./counter/ClassCounter"
 
 function IndexHooks() {
@@ -8,7 +9,8 @@ function IndexHooks() {
         <div>
             {/* <ClassCounter /> */}
             {/* <HookCounter /> */}
-            <HookCounterTwo />
+            {/* <HookCounterTwo /> */}
+            <HookCounterThree />
         </div>
     )
 }
