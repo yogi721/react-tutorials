@@ -1,9 +1,11 @@
 import React from "react"
-import HookCounterFour from "./counter/HookCounterFour"
-import HookCounterThree from "./counter/HookCounterThree"
+// import ClassCounter from "./counter/ClassCounter"
 // import HookCounter from "./counter/HookCounter"
 // import HookCounterTwo from "./counter/HookCounterTwo"
-// import ClassCounter from "./counter/ClassCounter"
+// import HookCounterThree from "./counter/HookCounterThree"
+// import HookCounterFour from "./counter/HookCounterFour"
+import ClassCounter from "./effectHook/ClassCounter"
+// import EfffectCounterOne from "./effectHook/EfffectCounterOne"
 
 
 function IndexHooks() {
@@ -12,8 +14,11 @@ function IndexHooks() {
             {/* <ClassCounter /> */}
             {/* <HookCounter /> */}
             {/* <HookCounterTwo /> */}
-            <HookCounterThree />
-            <HookCounterFour />
+            {/* <HookCounterThree /> */}
+            {/* <HookCounterFour /> */}
+
+            <ClassCounter />
+            {/* <EfffectCounterOne /> */}
         </div>
     )
 }
