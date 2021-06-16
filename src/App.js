@@ -1,7 +1,7 @@
 // import IndexTyping from './components/typing/IndexTyping';
-// import IndexDoc from './components/reactDoc/IndexDoc';
+import IndexDoc from './components/reactDoc/IndexDoc';
 // import IndexTutorial from './components/tutorial1/IndexTutorial';
-import IndexHooks from './components/tutorial2hooks/indexHooks';
+// import IndexHooks from './components/tutorial2hooks/indexHooks';
 // import IndexTodo from './components/todo/IndexTodo';
 
 
@@ -11,10 +11,10 @@ function App() {
     <div className="container mb-5 mb-5">
       <div className="row">
         {/* <IndexTutorial /> */}
-        <IndexHooks />
+        {/* <IndexHooks /> */}
         {/* <IndexTyping /> */}
         {/* <IndexTodo /> */}
-        {/* <IndexDoc /> */}
+        <IndexDoc />
       </div>
     </div>
   );
