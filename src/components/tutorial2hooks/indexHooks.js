@@ -4,8 +4,10 @@ import React from "react"
 // import HookCounterTwo from "./counter/HookCounterTwo"
 // import HookCounterThree from "./counter/HookCounterThree"
 // import HookCounterFour from "./counter/HookCounterFour"
-import ClassCounter from "./effectHook/ClassCounter"
+// import ClassCounter from "./effectHook/ClassCounter"
 // import EfffectCounterOne from "./effectHook/EfffectCounterOne"
+// import MouseClass from "./effectHook/MouseClass"
+import MouseEffectOnce from "./effectHook/MouseEffectOnce"
 
 
 function IndexHooks() {
@@ -17,8 +19,10 @@ function IndexHooks() {
             {/* <HookCounterThree /> */}
             {/* <HookCounterFour /> */}
 
-            <ClassCounter />
+            {/* <ClassCounter /> */}
             {/* <EfffectCounterOne /> */}
+            {/* <MouseClass /> */}
+            <MouseEffectOnce />
         </div>
     )
 }
