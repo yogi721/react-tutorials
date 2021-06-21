@@ -1,10 +1,17 @@
 import React, { useState } from 'react'
 
-function AddNewTodo() {
+function AddNewTodo({ addTodo }) {
+    const [todos, setTodos] = useState('')
+
+    const handleSubmit = (e) => {
+        e.preventDefault()
+        addTodo(todos)
+        setTodos('')
+    }
     return (
-        <form action="">
+        <form onSubmit={handleSubmit}>
             <label htmlFor="todo">To do</label>
-            <input type="text" id='todo' />
+            <input type="text" value={todos} id='todo' onChange={(e) => setTodos(e.target.value)} />
             <input type="submit" />
         </form>
     )
