@@ -1,4 +1,5 @@
 import React from "react"
+// import AppContext from "./contextHook/before/AppContext"
 // import ClassCounter from "./counter/ClassCounter"
 // import HookCounter from "./counter/HookCounter"
 // import HookCounterTwo from "./counter/HookCounterTwo"
@@ -7,8 +8,7 @@ import React from "react"
 // import ClassCounter from "./effectHook/ClassCounter"
 // import EfffectCounterOne from "./effectHook/EfffectCounterOne"
 // import MouseClass from "./effectHook/MouseClass"
-import MouseEffectOnce from "./effectHook/MouseEffectOnce"
-
+// import MouseEffectOnce from "./effectHook/MouseEffectOnce"
 
 function IndexHooks() {
     return (
@@ -22,7 +22,8 @@ function IndexHooks() {
             {/* <ClassCounter /> */}
             {/* <EfffectCounterOne /> */}
             {/* <MouseClass /> */}
-            <MouseEffectOnce />
+            {/* <MouseEffectOnce /> */}
+            {/* <AppContext /> */}
         </div>
     )
 }
