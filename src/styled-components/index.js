@@ -25,6 +25,7 @@ function index() {
             <Button secondary>
                 Secondary Button
             </Button>
+            <Button large>Large Button</Button>
         </>
     )
 }
